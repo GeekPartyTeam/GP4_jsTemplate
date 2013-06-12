@@ -15,14 +15,14 @@ var slides = {
     }
     , "win" : {
         "url" : "fireworks.swf"
-        , "description" : "Салют в Вашу честь"
+        , "description" : "Матрица дает салют в Вашу честь!"
     }
     , "1.1" : {
         "url" : "img/1_1.jpg"
-        , "description" : "не желаете ли пилюлю?"
+        , "description" : "Какую пилюлю будете кушать?"
         , "actions" : [
-            {"goto" : "win", "text" : "красную"}
-            , {"goto" : "end", "text" : "синию"}
+            {"goto" : "win", "text" : "Красную"}
+            , {"goto" : "end", "text" : "Синию"}
         ]
     }
     , "end" : {

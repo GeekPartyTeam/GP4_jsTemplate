@@ -43,3 +43,17 @@ body
 #actions a:hover {
     text-decoration: underline;
 }
+#gui a
+{
+    display: block;
+    width: 640px;
+    overflow: hidden;
+    margin: 0 0 16px 0;
+    font: 20px Arial;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#gui a:hover {
+    text-decoration: underline;
+}

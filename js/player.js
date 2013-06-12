@@ -16,6 +16,7 @@ var showSlide = function(id)
     $('#slide').html('');
     $('#actions').html('');
     $('#description').html('');
+    $('#gui').html('');
 
 
     if (slideConfig.description)
@@ -29,6 +30,11 @@ var showSlide = function(id)
 
     }
 
+    if (typeof actions === 'undefined')
+    {
+         $('#gui').append(
+                 '<p><a href="#" onclick=actionClick("start")>Play again</a></p>');
+    }
 
     var ext = _detectFormat(url);
     switch (ext)
