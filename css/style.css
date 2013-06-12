@@ -1,0 +1,45 @@
+p
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    /*background: black;*/
+}
+
+#description
+{
+
+}
+#description h1
+{
+    margin: 16px 0 0 0;
+    width: 638px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#actions
+{
+    margin: 16px 0 0 0;
+}
+#actions p
+{
+
+
+}
+#actions a
+{
+    display: block;
+    width: 640px;
+    overflow: hidden;
+    margin: 0 0 16px 0;
+    font: 24px/40px Arial;
+    color: blue;
+    text-decoration: none;
+}
+#actions a:hover {
+    text-decoration: underline;
+}
